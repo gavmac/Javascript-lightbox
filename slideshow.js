@@ -1,7 +1,4 @@
 /*
-   New Perspectives on JavaScript, 2nd Edition
-   Tutorial 8
-   Tutorial Case
 
    Author: Gavin Macken
    Date: 8 april '15
