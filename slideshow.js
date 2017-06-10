@@ -149,7 +149,7 @@ function  createGallery(slides)  {
 
    var  closeButton  =  document.createElement("input");
    closeButton.type  =  "image";
-   closeButton.src  =  "galleryclose.png";
+   closeButton.src  =  "img/galleryclose.png";
    closeButton.onclick  =  function()  {
       fadeOut("galleryBox",  100,  0.5,  0);
       fadeOut("pageOverlay",  80,  0.5,  0);
@@ -182,7 +182,7 @@ function  createGallery(slides)  {
    //  Create  a  button  to  go  to  the  previous  slide
    var  slideBack  =  document.createElement("input");
    slideBack.type  =  "image";
-   slideBack.src  =  "back.png";
+   slideBack.src  =  "img/back.png";
 
    slideBack.onclick  =  function()  {
    //  Get  the  index  of  current  slide
@@ -213,7 +213,7 @@ function  createGallery(slides)  {
    //  Create  a  button  to  go  to  the  next  slide
    var  slideForward  =  document.createElement("input");
    slideForward.type  =  "image";
-   slideForward.src  =  "forward.png";
+   slideForward.src  =  "img/forward.png";
 
    slideForward.onclick  =  function()  {
 
